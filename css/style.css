@@ -5,11 +5,11 @@
 body {
     width: 100%;
     height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	  font-family: 'Georgia', sans-serif;
+	  font-weight: 400;
     color: #888;
-	font-size: 16px;
-	line-height: 1.6em;
+	  font-size: 16px;
+	  line-height: 1.6em;
     background-color: #fff;
 }
 
@@ -18,22 +18,11 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0 0 30px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Georgia', sans-serif;
     font-weight: 400;
     color: #444;
-}
-
-blockquote {
-	font-family: Georgia, arial, sans-serif;
-	color: #bbb;
-	font-size: 20px;
 }
 
 p {
@@ -52,8 +41,7 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:hover,a:focus {
     text-decoration: none;
 }
 
@@ -68,10 +56,10 @@ img.img-responsive {
 
 /* ------- Navigation ------------ */
 #navigation {
-	background: #fff;
+	background: #FA8072;
 	z-index: 9999;
 	width:100%;
-    box-sizing:border-box;
+  box-sizing:border-box;
 	border-bottom: 1px solid #eee;
 	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
 	text-align: center;
@@ -93,7 +81,7 @@ img.img-responsive {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(98,50,45,0);
 }
 
 #menu .nav.navbar-bar {
@@ -356,8 +344,14 @@ hr {
 ============================ */
 
 .icon .fa {
-	color: #fff;
+	color: #FA8072;
 }
+.particles {
+  width: 100%;
+  height: 873px;
+  position: absolute;
+}
+
 
 /* ==========================
 --- Gallery
@@ -375,51 +369,12 @@ hr {
 }	
 
 
+
 /* ===========================
 --- Contact
 ============================ */
 
-.form-wrapper {
-	background: #f9f9f9;
-	padding: 40px;
-	 border-radius: 6px;
-}
 
-
-form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	letter-spacing: 1px;
-	font-size: 16px;
-}
-form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 4px;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
-	font-size: 16px;
-	margin-bottom: 20px;
-	background: #fefefe;
-	color: #888;
-}
-
-form#contact-form input,form#contact-form select {
-	height: 40px;
-}
-
-form#contact-form button {
-	border-radius: 4px;
-	height: 40px;
-	text-transform: none;
-	font-size: 16px;
-	font-weight: 700;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-	background: #fff;
-}
 
 
 /* ===========================
@@ -485,7 +440,7 @@ Parallax
 }
 
 a.btn:hover {
-	color: #fff;
+	color: #FA8072;
 }
 
 .btn-circle {
@@ -496,7 +451,7 @@ a.btn:hover {
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 40px;
-    color: #fff;
+    color: #FA8072;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -505,27 +460,27 @@ a.btn:hover {
 
 .btn-circle.btn-dark {
     border: 2px solid #666;
-    color: #666;
+    color: #FA8072;
 }
 
 
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #FA8072;
     background: rgba(255,255,255,.1);
 }
 
 .btn-circle.btn-dark :hover,
 .btn-circle.btn-dark :focus {
     outline: 0;
-    color: #999;
-    background: #fff;
+    color: #FA8072;
+    background: #FA8072;
 }
 
 .btn-circle.btn-dark :hover i,
 .btn-circle.btn-dark :focus i{
-    color: #999;
+    color: #FA8072;
 }
 
 .page-scroll .btn-circle i.animated {
@@ -581,22 +536,16 @@ a.btn:hover {
 }
 
 
-.btn-skin:hover,
-.btn-skin:focus,
-.btn-skin:active,
-.btn-skin.active {
-  color: #fff;
-  background-color: #666;
-  border-color: #666;
+.btn-skin:hover,.btn-skin:focus,.btn-skin:active,.btn-skin.active {
+  background-color: #FA8072;
 }
 
 
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #28c3ab;
+.btn-default:hover,.btn-default:focus {
+    border: 1px solid #FA8072;
     outline: 0;
-    color: #000;
-    background-color: #28c3ab;
+    color: #FA8072;
+    background-color: #FA8072;
 }
 
 .btn-huge {
@@ -613,7 +562,7 @@ a.btn:hover {
 
 @media (max-width:768px) {
 	.navbar-header .fa {
-		color: #666;
+		color: #FA8072;
 	}
 	
 	.col-xs-6 {
@@ -624,7 +573,7 @@ a.btn:hover {
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(10,100,65,.4);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
