@@ -1,14 +1,16 @@
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 
 
 body {
     width: 100%;
     height: 100%;
-	  font-family: 'Georgia', sans-serif;
+	  font-family: 'Poiret One', sans-serif;
 	  font-weight: 400;
     color: #888;
-	  font-size: 16px;
+	  font-size: 20px;
 	  line-height: 1.6em;
     background-color: #fff;
 }
@@ -27,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -64,15 +66,17 @@ img.img-responsive {
 	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	margin: 0 auto;
+
 }
 
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 10px;
+   
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 1500;
 }
 
 
@@ -85,26 +89,29 @@ img.img-responsive {
 }
 
 #menu .nav.navbar-bar {
+  
 	text-align: center;
 	float: none;
 	margin: 0 auto;
 }
 
 .navbar-custom ul.nav {
+
 	text-align: center;
 	float: none;
 	margin: 0 auto;
 }
 .navbar-custom ul.nav li {
+
 	float: none;
 	display: inline-block;
 	text-align: center;
 }
 .navbar-custom ul.nav li a {
-	font-size: 14px;
+
+	font-size: 30px;
 	letter-spacing: 1px;
-    color: #444;
-	text-transform: uppercase;
+    color: #fff;
 	font-weight: 700;
 }
 
@@ -130,7 +137,7 @@ img.img-responsive {
 
 .navbar-toggle {
     padding: 4px 6px;
-    font-size: 14px;
+    font-size: 40px;
     color: #fff;
 }
 
@@ -248,7 +255,7 @@ hr {
 }
 
 .section-heading h2 {
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom: 10px;
 	line-height: 1em;
 }
@@ -292,7 +299,7 @@ hr {
 }
 
 #intro.intro {
-	padding:200px 0 150px 0;
+	padding:173px 0 150px 0;
 }
 
 .intro .slogan {
@@ -320,7 +327,7 @@ hr {
 .intro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
-	font-size: 60px;
+	font-size: 20px;
 	line-height: 60px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
@@ -348,7 +355,7 @@ hr {
 }
 .particles {
   width: 100%;
-  height: 873px;
+  height: 868px;
   position: absolute;
 }
 
@@ -404,7 +411,7 @@ Parallax
 ============================= */
 
 #separator {	
-	background-image: url(../img/parallax-bg.jpg);
+	background-image: url(../img/sf.jpg);
 }
 
 #separator .icon {

@@ -4,15 +4,15 @@ a,a:hover {
 }
 
 .intro .page-scroll a:hover {
-	color: #ffffff;
+	color: #fff;
 }
 
-.icon:hover .fa{
-	color: #FA8072;
+.icon:hover .fa{ 
+	color: #000;
 }
 
 ul.nav li a:hover {
-	color: #ffffff;
+	color: #000;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -32,5 +32,8 @@ footer {
 .btn-skin {
   color: #fff;
   background-color: #FA8072;
-  border-color: #FA8072;
+  border-color: #fff;
 }
+
+
+
