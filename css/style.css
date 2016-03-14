@@ -403,7 +403,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #ccc;
+	color: #fff;
 }
 
 /* ==========================
@@ -447,7 +447,7 @@ Parallax
 }
 
 a.btn:hover {
-	color: #FA8072;
+	color: #000;
 }
 
 .btn-circle {
