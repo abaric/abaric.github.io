@@ -63,9 +63,9 @@
 
 .nivo-lightbox-image { text-align: center; }
 .nivo-lightbox-image img {
-	max-width: 150%;
-	max-height: 150%;
-	width: auto;
+	max-width: 250%;
+	max-height: 250%;
+	width: 100%;
 	height: auto;
 	vertical-align: middle;
 }
