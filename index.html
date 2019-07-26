@@ -1,147 +1,545 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>andrea baric</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-<head>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 	
-	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-    <title>andrea baric</title>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />	
-	<link href="css/animate.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
+	</head>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-75005568-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
-
-	<!-- Preloader -->
-	<div id="preloader">
-	  <div id="load"></div>
-	</div>
-
-	<!-- Section: intro -->
-    <section id="intro" class="intro">
-	
-		<div class="slogan">
-			<a href="index.html"><img src="img/mylogo.png" alt="" /></a>
-		</div>
-		<div class="page-scroll">
-			<a href="#about">
-				<i class="fa fa-angle-down fa-5x animated"></i>
-			</a>
-		</div>
-    </section>
-	<!-- /Section: intro -->
-	
-    <!-- Navigation -->
-    <div id="navigation">
-        <nav class="navbar navbar-custom" role="navigation">
-                              <div class="container">
-                                    <div class="row">
-                                          <div class="col-md-12">
-                         
-                                          <!-- Brand and toggle get grouped for better mobile display -->
-                                          <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                                                <i class="fa fa-bars"></i>
-                                                </button>
-                                          </div>
-                                                      <!-- Collect the nav links, forms, and other content for toggling -->
-                                                      <div class="collapse navbar-collapse" id="menu">
-                                                            <ul class="nav navbar-nav">
-                                                                  <li class="active"><a href="#intro"><strong>home</strong></a></li>
-                                                                  <li><a href="#about"><strong>about me</strong></a></li>
-														          <li><a href="#gallery"><strong>projects</strong></a></li>                                                                                                             
-                                                                  <li><a href="#contact"><strong>contact</strong></a></li>
-                                                            </ul>
-                                                      </div>
-                                                      <!-- /.Navbar-collapse -->
-                             
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- /.container -->
-                        </nav>
-    </div> 
-    <!-- /Navigation -->  
-
-	<!-- Section: about -->
-	
-    <canvas id="js-particles" class="particles" width="1280" height="900">
-    	<p>Your Browser does not support canvas.</p>
-	</canvas>
-
-    <section id="about" class="home-section">
-		<div class="container" position= "absolute">
-
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					
-						<div class="section-heading text-center">
-						<div class="wow bounceInDown" data-wow-delay="0.2s">
-
-							<h2>Hi! I'm Andrea.</h2>
-						</div>
-						<p class="wow bounceInUp" data-wow-delay="0.3s">I'm a computer science senior at the University of Pennsylvania.</p>
-						</div>
-					
-				</div>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">andrea baric</a></h1>
+				<span class="position">pm @ Microsoft</span>
 			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-				
-					<img src="img/penn.jpg" class="img-responsive img-rounded" alt="" />
-				</div>		
-				<div class="col-md-6">
-					<p><strong><i>a little bit about me</i></strong></p>
-					<p>
-					I'm interested in a full-stack SWE or PM role after my graduation in May 2018 at a medium to small sized company. Looking for positions based in Seattle or in Europe. Previously worked at Microsoft as a PM intern within Office this past summer, and at Qualcomm as a software engineering intern on the Modem Performance/Architecture team in 2016. Also interned at Intel in summer 2015 as an Internet of Things intern. Currently taking: Scalable and Cloud Computing, Introduction to R. 
-					</p>
-					<p><strong><i>the fun stuff</i></strong></p>
-					<p>
-					Founder and Sponsorship Head of FemmeHacks, Philadelphia's first all women collegiate hackathon. Square Code Camp XI alumna. Bell Senior Society (for Tech & Entrepreneurship) member. Past teammate of Hacking & Learning Committee within Dining Philosophers, Penn's official computer science organization, focusing on security events. Penn Tech Trek 2015 alum. NCWIT Aspirations in Computing winner.
-					</p>
-					<a href="https://drive.google.com/file/d/0B_QigMGHfyD0Y2tWV0NjUEJPRkE/view?usp=sharing" class="btn btn-skin btn-lg btn-scroll">resume </a>
-					<a href="#gallery" class="btn btn-skin btn-lg btn-scroll">see my projects</a>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+					    <li><a href="#" data-nav-section="experience">Work</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="blog">Media</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
 				</div>
-			</div>		
-		</div>
-	</section>
-	<!-- /Section: about -->
-	
-	<!-- Section: separator -->
-    <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-		
-		<div class="container">
-			<div class="row">
+			</nav>
+
+			
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi - I'm Andrea!</h1>
+						   					<h2>I'm a product manager at Microsoft (SwiftKey) based in London.</a></h2>
+												<p><a class="btn btn-primary btn-learn">download my CV here <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">about me</span>
+										<!--<h2 class="colorlib-heading">Who Am I?</h2> -->
+										<p>I graduated from the University of Pennsylania in 2018 with a BSE in computer science. One of my most deepest interests is diversity & inclusion in tech. During university in 2015 I founded <a href="http://www.femmehacks.io">FemmeHacks</a>, one of the world's first annual hackathons for those identifying as women or non-binary. </p>
+
+										<p>I also helped with other STEM outreach in the Philadelphia local community. Clubs like Women in Computer Science regularly held
+											events like coding workshops and panels where I taught or advised students. Many of us were mentors for <a href="http://www.techitoutphilly.com">Tech It Out Philly</a>, a weekend web-development program for kids in local under-resourced areas. I spent a few years as a teaching assistant for <a href = "http://www.cis.upenn.edu/~cis110/current/CIS110">CIS110</a>, Penn's intro CS class.   </p>
+
+										<p>Outside of tech you'd find me enjoying all water sports, finding new 100% chocolate bars, and spotting shibas in one of London's many parks. Talk to me about anything Balkan-related!</p>
+										
+								
+									</div>
+
+								</div>
+							</div>
+
+
+							<!--
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>Graphic Design</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Web Design</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Software</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Application</h3>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+						-->
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+			<section class="colorlib-services" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I'm good at</span>
+							<h2 class="colorlib-heading">skills</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Product management</h3>
+									<p>Work w/ dev, design, data science, and marketing teams </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Java</h3>
+									<p>Most of my coding experience derives from Java and some C</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Python</h3>
+									<p>My first programming language! (With the first project being a video game)</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Web dev</h3>
+									<p>Learned for fun outside of school and work</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-globe"></i>
+								</span>
+								<div class="desc">
+									<h3>Languages</h3>
+									<p>Functionally fluent in Bosnian/Croatian/Serbian; conversational in Spanish</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			
+
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">product manager </a> <span>Microsoft</span></h2>
+					                  <p>Currently a product manager for the SwiftKey team in Microsoft London. I work closely with developers,
+					                  data science, and business to build user-centric features with decisions driven by data.</p>
+					                  <p>[october 2018 - present]</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">program manager intern</a> <span>Microsoft</span></h2>
+					                  <p>PM in Office on the File IO team in Redmond, Washington. I researched and reported on the <br> <i>File->Move</i> and <i>File->Delete</i> features that
+					                  all Office apps (Word, Excel, PowerPoint) were considering.</p>
+					                  <p>[summer 2017]</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">software engineering intern</a> <span>Qualcomm</span></h2>
+					                  <p>SWE intern on the Modem Performance team in San Diego, California. I built an internal tool that allowed my team
+					                  to test new modems for mobile devices in our lab's simulated cellular network. </p>
+					                  <p>[summer 2016]</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">undergraduate technical intern</a> <span>Intel</span></h2>
+					                  <p>Intern on the Internet of Things team, researching IoT solutions for Intel to invest in and writing documentation
+					                  on the now-retired Edison makerboard.</p>
+					                  <p>[summer 2015]</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">University of Pennsylvania
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>I studied computer science and graduated in 2018, transferring after my freshman year from Drexel University. I took courses on topics like</p>
+													<ul>
+														<li>Data Structures & Algorithms</li>
+														<li>Operating Systems</li>
+														<li>Machine Learning</li>
+														<li>Software Design</li>
+													</ul>
+												<p>My favorite classes were in the Russian & Eastern European Studies and Gender Studies departments, with professors like <a href="https://penntoday.upenn.edu/news/scholar-behind-why-women-have-better-sex-under-socialism">Kristen Ghodsee.</a></p>
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">The Agnes Irwin School
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <p>I attended an all-girls high school outside of Philadelphia which I credit for my pursuit of computer science.</p>	
+									        </div>
+									    </div>
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">In the media</span>
+							<h2 class="colorlib-heading">Read more about FemmeHacks</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://technical.ly/philly/2017/03/31/femmehacks-recap/" class="blog-img"><img src="images/beginning.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>March 2017</small></span>
+									<h3><a href="https://technical.ly/philly/2017/03/31/femmehacks-recap/">The beginning</a></h3>
+									<p>Here</a> is a 2017 article I guest-wrote about my initial feeling of being unsuited for studying computer science and how FemmeHacks' "culture" hopes to refute that feeling in others. <a href = ""></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://www.thedp.com/article/2016/02/all-female-hackathon" class="blog-img"><img src="images/coding.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>February 2016 </small></span>
+									<h3><a href="https://www.thedp.com/article/2016/02/all-female-hackathon">Penn's student newspaper</a></h3>
+									<p>The Daily Pennsylvanian, Penn's student newspaper, interviewed organizers and participants. With the help of an incredible organizing team, FemmeHacks has grown from 30 to 250+ annual participants (with great sponsors like DuckDuckGo and Jane Street in tow)!  </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://penntoday.upenn.edu/news/wired-femmehacks" class="blog-img"><img src="images/gutmann.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>March 2019</small></span>
+									<h3><a href="https://penntoday.upenn.edu/news/wired-femmehacks">University visitors</a></h3>
+									<p>Penn's President Dr. Amy Gutmann and Engineering School Dean Vijay Kumar dropped in 2019 to hear from hackers themselves about their experiences. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+
+							<ul class="list-inline">
+
+
+									<li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-mail"></i><a href="abaric896@gmail.com" target="_blank"> email</a>
+										</div>
+			                        </li>
+
+			                        <li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-people"></i><a href="https://www.linkedin.com/in/abaric1" target="_blank">linkedin</a>
+										</div>
+			                        </li>
+
+
+			                        <li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-github"></i><a href="https://www.github.com/abaric" target="_blank"> github</a>
+										</div>
+			                        </li>
+
+			                        <!-- <li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-quora"></i><a href="https://www.quora.com/profile/Andrea-Baric" target="_blank">quora</a>
+										</div>
+			                        </li> -->
+
+			                         <li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-spotify"></i><a href="https://play.spotify.com/user/12127742551" target="_blank"> spotify</a>
+										</div>
+			                        </li>
+
+			                         <li>
+			                        	<div class="colorlib-icon">
+											<i class="icon-twitter"></i><a href="https://www.twitter.com/femmehacks" target="_blank">twitter</a>
+										</div>
+			                        </li>
+
+			                    </ul>
+
+						</div>
+					</div>
+
+
+
+
+					<!-- 
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-mail"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">abaric896@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+								</div>
+							</div>
+
+							
+						</div>
+						
+					</div>
+				     -->
+
+				    <!-- div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				  <div class="colorlib-narrow-content">
+					
+					<div class="row">
+
+
+						
+
+						<div class="col-md-3 text-center animate-box">
+							<h2>Hi</h2>
+						</div>
+
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Cups of coffee</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projects</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Clients</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Partners</span>
+						</div>
+
+					
+
 					<div class="col-xs-6 col-sm-3 col-md-3">
 						<div class="align-center txt-shadow">
 							<div class="icon">
@@ -174,134 +572,39 @@
 						<span class="color-white">first coding project was a video game</span>
 						</div>
 					</div>
-			</div>		
-		</div>
-	</section>
-	<!-- /Section: separator -->
-	
-	
-	<!-- Section: gallery -->
-    <section id="gallery" class="home-section text-center bg-gray">
- 
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
-					<div class="section-heading">
-						<h2>my projects</h2>
-					</div>
-					</div>
+
+					</div> -->
+
+				
 				</div>
-			</div>
-			</div>
+			
+							
 
-		<div class="container">
-			<div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12" >
-					<div class="wow bounceInUp" data-wow-delay="0.4s">
-                    <div id="owl-works" class="owl-carousel">
-                        <div class="item"><a href="img/gallery/qualcomm.png" title="A rudimentary web version peek into the internal tool I built at Qualcomm" data-lightbox-gallery="gallery1"><img src="img/gallery/qualcomm.png" class="img-responsive " alt="img"></a></div>
+			</section>
 
-                        <div class="item"><a href="img/gallery/femmehacks_home.png" title="FemmeHacks 2016 website" data-lightbox-gallery="gallery1"><img src="img/gallery/femmehacks_home.png" class="img-responsive" alt="img"></a></div>
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
 
-                        <div class="item"><a href="img/gallery/code_camp.png" title="A website for Code Camp alum to connect with one another (https://polar-harbor-7635.herokuapp.com/)" data-lightbox-gallery="gallery1"><img src="img/gallery/code_camp.png" class="img-responsive " alt="img"></a></div>
-
-                        <!--<div class="item"><a href="img/gallery/wics.png" title="Penn Women in Computer Science resource page" data-lightbox-gallery="gallery1"><img src="img/gallery/wics.png" class="img-responsive " alt="img"></a></div> 
-                        
-                        <div class="item"><a href="img/gallery/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/pennapps.png" class="img-responsive " alt="img"></a></div>-->
-
-                        <div class="item"><a href="img/gallery/videogame.png" title="Video game made in high school" data-lightbox-gallery="gallery1"><img src="img/gallery/videogame.png" class="img-responsive " alt="img"></a></div>
-
-                        <div class="item"><a href="img/gallery/courses.png" title="Course selection and recommendation web app for high school" data-lightbox-gallery="gallery1"><img src="img/gallery/courses.png" class="img-responsive " alt="img"></a></div>
-                        
-                        <div class="item"><a href="img/gallery/impulse.png" title="Tumblr-style website for high school's arts magazine" data-lightbox-gallery="gallery1"><img src="img/gallery/impulse.png" class="img-responsive " alt="img"></a></div>
-
-                         
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-	</section>
-	<!-- /Section: services -->
-	
-
-	
-
-	<!-- Section: contact -->
-    <section id="contact" class="home-section text-center">
-		<div class="heading-contact">
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-offset-2">
-					
-					<div class="section-heading">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
-					<h2>let's chat!</h2>
-					</div>
-					<p class="wow lightSpeedIn" data-wow-delay="0.3s"><a href = "mailto:hi@andreabaric.com"> e-mail</a> is best.</p>
-					 <ul class="list-inline">
-                        <li>
-                            <a href="https://www.github.com/abaric" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/abaric1" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/drizzy_dre822/" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.quora.com/profile/Andrea-Baric" target="_blank"><i class="fa fa-fw fa-3x"><strong>Q</strong></i></a>
-                        </li>
-                        <li>
-                            <a href="https://play.spotify.com/user/12127742551" target="_blank"><i class="fa fa-spotify fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com/femmehacks" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                     
-                    </ul>
-					</div>
-					
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<!-- /Section: contact -->
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<p>made with <span style="color: #000">♥</span> from yours truly!</p>
-				</div>
-
-                <!-- 
-                    All links in the footer should remain intact. 
-                    Licenseing information is available at: http://bootstraptaste.com/license/
-                    You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Lonely
-                -->
-			</div>	
-		</div>
-	</footer>
-
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>	
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/wow.min.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/nivo-lightbox.min.js"></script>
-	<script src="js/particles.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
-</body>
-
+	</body>
 </html>
+
