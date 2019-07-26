@@ -137,7 +137,7 @@ figure {
         list-style: none;
         font-size: 12px;
         font-weight: 500;
-        text-transform: uppercase;
+        text-transform: lowercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
